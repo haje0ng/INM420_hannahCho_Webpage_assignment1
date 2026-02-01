@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed Grid Layout</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <!-- Logo Section -->
+                <div class="logo">
+                    <img src="/assets/images/logo.png" alt="logo" class="logo-icon">
+                    <span class="logo-text">Grid</span>
+                </div>
+                
+                <!-- Mobile Menu Toggle -->
+                <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+                
+                <!-- Navigation Menu -->
+                <div class="nav-links">
+                    <a href="#" class="nav-link active">How it works</a>
+                    <span class="nav-separator"></span>
+                    <a href="#" class="nav-link">Who we are</a>
+                    <span class="nav-separator"></span>
+                    <a href="#" class="nav-link">What we do</a>
+                    <span class="nav-separator"></span>
+                    <a href="#" class="nav-link">Contact us</a>
+                </div>
+                
+                <!-- Sign in Button -->
+                <a href="#" class="btn btn-outline btn-signin">Sign in</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="background-rectangle"></div>
+            <div class="background-dots"></div>
+            <div class="background-highlight"></div>
+        </div>
+        
+        <div class="container">
+            <!-- Main Title (outside the grid) -->
+            <h1 class="hero-main-title">Combine <strong>fine</strong>images </h1>
+            <h2 class="hero-main-title2">To represent a product</h2>
+            
+            <!-- Grid Area -->
+            <div class="hero-grid-parent">
+                <!-- div1: First Text -->
+                <div class="hero-grid-item div1">
+                    <p class="grid-text">Use mixed grid with imagery, replace with your own photos and descriptions</p>
+                </div>
+                
+                <!-- div2: First Image + Text -->
+                <div class="hero-grid-item div2">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image2.png" alt="HQ Templates for Figma">
+                    </div>
+                    <div class="grid-content-overlay">
+                        <div class="overlay-content">
+                            <h2>Consider it done!</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- div3: Second Text -->
+                <div class="hero-grid-item div3">
+                    <p class="grid-text">This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+                </div>
+                
+                <!-- div4: Second Image + Text -->
+                <div class="hero-grid-item div4">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image1.png" alt="Consider it done">
+                    </div>
+                    <div class="grid-content-overlay">
+                        <div class="overlay-content">
+                            <h4>We aimed to deliver HQ templates for Figma</h4>
+                            <p class="overlay-subtext">Used by 123 people</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- div5: Button -->
+                <div class="hero-grid-item div5">
+                    <a href="#" class="hero-button">Learn more</a>
+                </div>
+                
+                <!-- div6: Image -->
+                <div class="hero-grid-item div6">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image3.png" alt="Grid example 1">
+                    </div>
+                </div>
+                
+                <!-- div7: Image + Text -->
+                <div class="hero-grid-item div7">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image6.png" alt="See my goal">
+                    </div>
+                    <div class="grid-content-overlay">
+                        <div class="overlay-content">
+                            <h2>See my goal?</h2>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- div8: Image -->
+                <div class="hero-grid-item div8">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image4.png" alt="Grid example 2">
+                    </div>
+                </div>
+                
+                <!-- div9: Image -->
+                <div class="hero-grid-item div9">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image5.png" alt="Grid example 3">
+                    </div>
+                </div>
+                
+                <!-- div10: Image -->
+                <div class="hero-grid-item div10">
+                    <div class="grid-image-container">
+                        <img src="/assets/images/image7.png" alt="Grid example 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Delivering good designs since 1954 🚚💨</h2>
+            <p class="section-description">We’re the first multi-purpose design kit solutions for businesses. We help you bridge
+                gaps between your layouts, templates and developers to empower all involved.</p>
+            
+            <div class="features-grid">
+                <div class="feature-card feature-support">
+                    <div class="feature-icon">
+                        <img src="/assets/images/icon-phone-call.png" alt="Support Icon" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Support</h3>
+                    <p class="feature-description">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                    <button class="btn btn-outline feature-btn">Learn more</button>
+                </div>
+                
+                <div class="feature-card feature-sales">
+                    <div class="feature-icon">
+                        <img src="/assets/images/icon-pie-chart.png" alt="Sales Icon" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Sales growth</h3>
+                    <p class="feature-description">Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                    <button class="btn btn-outline feature-btn">Learn more</button>
+                </div>
+                
+                <div class="feature-card feature-components">
+                    <div class="feature-icon">
+                        <img src="/assets/images/icon-zap.png" alt="Components Icon" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Coponents-driven</h3>
+                    <p class="feature-description">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                    <button class="btn btn-outline feature-btn">Learn more</button>
+                </div>
+                
+                <div class="feature-card feature-swap">
+                    <div class="feature-icon">
+                        <img src="/assets/images/icon-thumbs-up.png" alt="Swap Icon" class="feature-icon-img">
+                    </div>
+                    <h3 class="feature-title">Swap the icon</h3>
+                    <p class="feature-description">You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                    <button class="btn btn-outline feature-btn">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <!-- Left Section -->
+                <div class="footer-left">
+                    <section class="footer-follow">
+                        <h3 class="footer-subtitle">FOLLOW US</h3>
+                        <div class="social-icons">
+                            <a href="#" class="social-link">
+                                <img src="/assets/images/icon-facebook.png" alt="facebook" class="social-icon">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="/assets/images/icon-linkedin.png" alt="linkedin" class="social-icon">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="/assets/images/icon-slack.png" alt="slack" class="social-icon">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="/assets/images/icon-twitter.png" alt="twitter" class="social-icon">
+                            </a>
+                        </div>
+                    </section>
+                    
+                    <section class="footer-info">
+                        <h3 class="footer-subtitle">INFORMATION</h3>
+                        <nav class="footer-nav">
+                            <ul class="footer-links">
+                                <li><a href="#" class="footer-link">About Faster app</a></li>
+                                <li><a href="#" class="footer-link">Onhovered / Active</a></li>
+                                <li><a href="#" class="footer-link">We are hiring!</a></li>
+                                <li><a href="#" class="footer-link">Get in Touch</a></li>
+                                <li><a href="#" class="footer-link">Privacy Policy</a></li>
+                                <li><a href="#" class="footer-link">Resources</a></li>
+                                <li><a href="#" class="footer-link">Things We Like</a></li>
+                                <li><a href="#" class="footer-link">Terms of Service</a></li>
+                            </ul>
+                        </nav>
+                    </section>
+                </div>
+                
+                <!-- Right Section -->
+                <div class="footer-right">
+                    <section class="footer-contact">
+                        <h3 class="footer-subtitle">FOLLOW US</h3>
+                        <p class="footer-email">hello@fasterapp.com</p>
+                    </section>
+                    
+                    <section class="footer-keep-in-touch">
+                        <h3 class="footer-subtitle">KEEP IN TOUCH</h3>
+                        <form class="contact-form">
+                            <!-- Your name, Email (one line) -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="input-container input-small">
+                                        <input type="text" class="form-input" placeholder="Your name" required>
+                                        <div class="input-icon">
+                                            <img src="/assets/images/icon-user.png" alt="User" class="form-icon-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="input-container input-small">
+                                        <input type="email" class="form-input" placeholder="E-mail" required>
+                                        <div class="input-icon">
+                                            <img src="/assets/images/icon-mail.png" alt="Email" class="form-icon-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- Leave your message, Send button (one line) -->
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <div class="input-container input-large">
+                                        <textarea class="form-input" placeholder="Leave your message" rows="3" required></textarea>
+                                        <div class="input-icon">
+                                            <img src="/assets/images/icon-edit.png" alt="Message" class="form-icon-img">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" class="btn-submit">
+                                        SEND
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </section>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Wave Image -->
+        <div class="footer-wave">
+            <img src="/assets/images/Wave.png" alt="Wave Design" class="wave-image">
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.menu-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
